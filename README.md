@@ -114,3 +114,5 @@ Using [Groupie library](https://github.com/lisawray/groupie) for easier adapter 
     }
 }
 ```
+
+* Remember to add your own Firebase credentials when you test the app, add your own google-services.json
