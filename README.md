@@ -4,7 +4,7 @@
 ## User to User messaging
 To send and receive messages the app saves a list of messages under a node in Firebase Database.  Next, it listens for all these messages as they are entered in the system, and then refreshes the adapter items in real time.
 
-![](gifs/messages1.gif)
+![](gifs/messages2.gif)
 
 ```
 private fun performSendMessage() {
@@ -92,7 +92,7 @@ private fun listenForLatestMessages() {
 Using the Firebase Auth library users can be registered with email and password. They can create a username and upload a profile picture.
 Integrating CircleImageView allows to round off the corners of the images
 
-![](gifs/messages2.gif)
+![](gifs/messages1.gif)
 
 ## RecyclerView
 Using [Groupie library](https://github.com/lisawray/groupie) for easier adapter object creation.
