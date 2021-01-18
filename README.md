@@ -116,3 +116,51 @@ Using [Groupie library](https://github.com/lisawray/groupie) for easier adapter 
 ```
 
 * Remember to add your own Firebase credentials when you test the app, add your own google-services.json
+
+## Credits
+[Firebase analytics 17.5.0, auth 19.4.0, storage 19.2.0, database 19.4.0](https://firebase.google.com/docs/android/setup)
+
+[Circle Image View 3.1.0](https://github.com/hdodenhof/CircleImageView)
+
+[Groupie 2.8.1](https://github.com/lisawray/groupie)
+
+[Picasso 2.71828](https://github.com/square/picasso)
+
+
+Android Gradle plugin version: 4.0.1
+
+Gradle version: 6.1.1
+
+
+com.google.gms:google-services:4.3.3
+
+
+buildToolsVersion "30.0.1"
+
+ext.kotlin_version = "1.4.0"
+
+
+### Gradle dependecies
+```
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:19.4.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:19.2.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.4.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation "com.xwray:groupie:2.8.1"
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+```
+
